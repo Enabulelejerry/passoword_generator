@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+body {
+
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #53cba9;
+    font-family: tahoma
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+main {
+    margin: 0 auto;
+    width: 70%;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.password-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 10px;
+    background: #222;
+    color: #fff
+}
+
+.btn:hover {
+    background: #fff;
+    color: #222;
+}
+
+
+span {
+    color: #5aeec4;
+    padding-left: 0.6rem;
+
+}
+
+@media screen and (max-width:1080px) {
+
+    .password-container {
+        width: 100%;
+
+    }
+
+
+}
+
+@media screen and (max-width:550px) {
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    main {
+
+        width: 90%;
+
+
+    }
+
+    .password-container {
+        width: 80%;
+
+
+    }
+
+}
